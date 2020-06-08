@@ -1,0 +1,20 @@
+// Variables
+
+// Colors
+
+$primary: #1CACAB;
+$dark: #2D2F26;
+$white: #fff;
+
+// Body
+
+$body-bg: $dark;
+$body-color: $white;
+
+// Spacing
+
+$spacer: 1rem;
+$spacers: (
+    6: ($spacer * 5),
+    7: ($spacer * 8)
+    );
