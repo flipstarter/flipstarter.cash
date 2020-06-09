@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<section class="py-6">
+  <div class="container">
+    <div class="row text-center pb-6">
+      <h1 class="col">Start your campaign in 5 easy steps</h1>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <div class="py-4">
+          <p>1. Create a DigitalOcean account if you don’t have one</p>
+        </div>
+
+        <div class="py-4">
+          <p>2. Deploy the Flipstarter app from the Marketplace</p>
+        </div>
+
+        <div class="py-4">
+          <p>3. Copy and paste the IP address of your newly created campaign into a browser</p>
+        </div>
+
+        <div class="py-4">
+          <p>4. Fill in your campaign information</p>
+        </div>
+
+        <div class="py-4">
+          <p>5. Add a domain name (optional but recommended)</p>
+          <p class="text-muted">You can do this through your domaine name provider such as Namecheap, Godaddy etc...</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="pb-5">
+  <div class="container text-center">
+    <i data-feather="gitlab" class="mx-2 text-muted"></i>
+    <i data-feather="github" class="mx-2 text-muted"></i>
+    <i data-feather="twitter" class="mx-2 text-muted"></i>
+  </div>
+</section>
+{% endblock %}
