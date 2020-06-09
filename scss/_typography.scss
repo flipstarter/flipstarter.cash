@@ -10,6 +10,13 @@ body {
 }
 
 .hero-title {
-  font-size: 2.7rem;
-  line-height: 3.4rem;
+  font-size: 3.6rem;
+  line-height: 4.4rem;
+}
+
+@media (max-width: 400px) {
+  .hero-title {
+    font-size: 2.5rem;
+    line-height: 3.8rem;
+  }
 }
