@@ -39,6 +39,9 @@ gulp.task('sass', function(){
 
 // Copy all static files
 gulp.task('copy-static', function(){
+  // Copy feather-icons files from node_modules
+  gulp.src('node_modules/feather-icons/dist/*')
+    .pipe(gulp.dest('dist/static/'));
   return gulp.src('app/static/**/*.*', {base: './app/static/'})
     .pipe(gulp.dest('dist/static/'));
 });

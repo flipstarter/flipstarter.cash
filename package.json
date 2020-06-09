@@ -28,6 +28,7 @@
     "gulp-sass": "^4.1.0"
   },
   "dependencies": {
+    "feather-icons": "^4.28.0",
     "pattern.css": "^1.0.0"
   }
 }
