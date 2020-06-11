@@ -50,11 +50,37 @@
       <div class="col-md-10">
         <div class="py-4">
           <p>Option 1. Deploy with Docker</p>
+          <pre>
+            <code class="bash">
+  # download the latest version of flipstarter
+  docker pull flipstarter/flipstarter
+
+  # create a volume to store the database
+  docker volume create flipstarter
+
+  # run the container on ports 443 and 80
+  docker run -d --restart always --name flipstarter -v flipstarter:/app -p 443:3000 -p 80:3000 flipstarter/flipstarter
+            </code>
+          </pre>
         </div>
 
-        <div class="py-4">
+        <div>
           <p>Option 2. Deploy with NodeJS</p>
+          <pre>
+            <code class="bash">
+  # clone the git repo
+  git clone https://gitlab.com/flipstarter/backend
+
+  # install dependencies
+  npm install
+
+  # run the webserver on port 3000
+  npm start
+            </code>
+          </pre>
         </div>
+
+        <a href="https://gitlab.com/flipstarter/backend" target="_blank">Read the full instructions</a>
       </div>
     </div>
   </div>

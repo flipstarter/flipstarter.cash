@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "feather-icons": "^4.28.0",
+    "highlight.js": "^10.0.3",
     "pattern.css": "^1.0.0"
   }
 }
