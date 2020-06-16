@@ -1,0 +1,41 @@
+---
+start: Start your campaign
+easy: Easy
+advanced: Advanced
+no-time: No time?
+hire: Hire someone to deploy it for you
+disclaimer: The tools are offered as-is with no expectation of support
+do:
+  title: 'Easy: deploy to DigitalOcean in 5 steps'
+  one:
+    title: 1. Create a DigitalOcean account if you don’t already have one
+    desc: Create account with $100 free credit <small>(referred by merc1er)</small></a> or <a href="https://digitalocean.com/" target="_blank">Create account without referral
+  two:
+    title: 2. Deploy the Flipstarter app from the Marketplace
+    desc: Click here to deploy
+  three:
+    title: 3. Copy and paste the IP address of your newly created campaign into a browser
+  four:
+    title: 4. Fill in your campaign information
+    desc: In the window you just opened
+  five:
+    title: 5. Add a domain name (optional but recommended)
+    desc: You can do this through your domain name provider such as Namecheap, Godaddy etc...
+  congrats:
+    title: Congratulations, your campaign is ready
+    desc: Note that you cannot edit a campaign once it is created. You can delete a campaign under the <u>destroy</u> section in DigitalOcean.
+custom:
+  title: 'Advanced: deploy anywhere'
+  opt1:
+    title: Option 1. Deploy with Docker
+    desc: All you need is Docker installed on your machine
+    cmd1: download the latest version of flipstarter
+    cmd2: create a volume to store the database
+    cmd3: run the container on ports 443 and 80
+  opt2:
+    title: Option 2. Deploy with NodeJS
+    desc: You will need Git, NodeJS and <a href="https://github.com/nodejs/node-gyp" target="_blank">node-gyp</a> installed on your machine
+    cmd1: clone the git repo and cd into it
+    cmd2: install dependencies
+    cmd3: run the webserver on port 3000
+  full: Read the full instructions
