@@ -1,6 +1,39 @@
-{% extends 'base.html' %}
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-{% block body %}
+  <meta name="author" content="Corentin Mercier">
+  <meta name="description" content="">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/static/css/style.css">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@flipstartercash">
+  <meta name="twitter:creator" content="@flipstartercash">
+  <meta name="twitter:title" content="Flipstarter">
+  <meta name="twitter:image" content="https://flipstarter.cash/static/img/thumbnail.png">
+
+  <!-- Facebook -->
+  <meta property="og:url" content="https://flipstarter.cash">
+  <meta property="og:title" content="Flipstarter">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://flipstarter.cash/static/img/thumbnail.png">
+  <meta property="og:image:type" content="image/png">
+
+  <title>$( base.title )$</title>
+</head>
+<body>
+
+  <!-- <nav class="navbar navbar-dark">
+    <a class="navbar-brand" href="/">Flipstarter</a>
+  </nav> -->
+
+  
 <div class="container mt-5">
   <div class="row justify-content-center">
     <div class="col-md-10">
@@ -132,4 +165,44 @@
     </div>
   </div>
 </section>
-{% endblock %}
+
+
+  <div class="pattern-dots-sm text-muted" style="height: 20px;"></div>
+
+  <section class="py-5">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col">
+          <a href="https://gitlab.com/flipstarter" target="_blank">
+            <i data-feather="gitlab" class="mx-2 text-muted"></i>
+          </a>
+          <a href="https://github.com/flipstarter" target="_blank">
+            <i data-feather="github" class="mx-2 text-muted"></i>
+          </a>
+          <a href="https://twitter.com/flipstartercash" target="_blank">
+            <i data-feather="twitter" class="mx-2 text-muted"></i>
+          </a>
+          <a href="https://t.me/flipstarter" target="_blank">
+            <i data-feather="send" class="mx-2 text-muted"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col text-center">
+          <small class="text-secondary">$( base.disclaimer )$</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JavaScript -->
+  <script src="/static/feather.min.js"></script>
+  <script src="/static/js/highlight.min.js"></script>
+  <script>
+    feather.replace();
+    hljs.initHighlightingOnLoad();
+  </script>
+
+</body>
+</html>
