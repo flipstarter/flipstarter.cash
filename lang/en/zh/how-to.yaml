@@ -31,11 +31,11 @@ custom:
     desc: 你只需要在设备上安装Docker即可
     cmd1: 下载最新版的flipstarter
     cmd2: 创建一个卷来存储数据库
-    cmd3: run the container on ports 443 and 80
+    cmd3: 在443和80端口运行容器
   opt2:
-    title: Option 2. Deploy with NodeJS
-    desc: You will need Git, NodeJS and <a href="https://github.com/nodejs/node-gyp" target="_blank">node-gyp</a> installed on your machine
-    cmd1: clone the git repo and cd into it
-    cmd2: install dependencies
-    cmd3: run the webserver on port 3000
-  full: Read the full instructions
+    title: 选项2. 部署NodeJS
+    desc: 你需要在设备上安装Git，NodeJS和<a href="https://github.com/nodejs/node-gyp" target="_blank">node-gyp</a>
+    cmd1: 把git库和cd复制进去
+    cmd2: 安装依赖
+    cmd3: 在3000端口运行网页服务器
+  full: 阅读完整的指导
