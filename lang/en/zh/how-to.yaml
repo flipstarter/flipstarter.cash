@@ -1,28 +1,28 @@
 ---
 start: 发起募资
-easy: Easy
-advanced: Advanced
-no-time: No time?
-hire: Hire someone to deploy it for you
-disclaimer: The tools are offered as-is with no expectation of support
+easy: 简单模式
+advanced: 高级模式
+no-time: 没有时间？
+hire: 雇佣他人为你部署
+disclaimer: 工具都是开源的，不提供其他支持
 do:
-  title: 'Easy: deploy to DigitalOcean in 5 steps'
+  title: '简单模式：5步部署到DigitalOcean'
   one:
-    title: 1. Create a DigitalOcean account if you don’t already have one
-    desc: Create account with $100 free credit <small>(referred by merc1er)</small></a> or <a href="https://digitalocean.com/" target="_blank">Create account without referral
+    title: 1. 没有账户的话，要创建一个DigitalOcean账户
+    desc: 使用100美金的免额信用创建账户<small>(由merc1er推荐)</small></a>或者<a href="https://digitalocean.com/" target="_blank">不使用推荐创建账户
   two:
-    title: 2. Deploy the Flipstarter app from the Marketplace
-    desc: Click here to deploy
+    title: 2. 从市场部署Flipstarter app
+    desc: 点击此处进行部署
   three:
-    title: 3. Copy and paste the IP address of your newly created campaign into a browser
+    title: 3. 把你新创建的募资活动的IP地址复制粘贴到浏览器
   four:
-    title: 4. Fill in your campaign information
-    desc: In the window you just opened
+    title: 4. 补充募资信息
+    desc: 在刚打开的窗口
   five:
-    title: 5. Add a domain name (optional but recommended)
-    desc: You can do this through your domain name provider such as Namecheap, Godaddy etc...
+    title: 5. 添加域名 (非强制性的但是推荐这一步)
+    desc: 可以通过域名服务商Namecheap，Godaddy等完成这一步
   congrats:
-    title: Congratulations, your campaign is ready
+    title: 恭喜！你的募资活动已创建完毕
     desc: Note that you cannot edit a campaign once it is created. You can delete a campaign under the <u>destroy</u> section in DigitalOcean.
 custom:
   title: 'Advanced: deploy anywhere'
