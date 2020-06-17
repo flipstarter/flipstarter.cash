@@ -6,7 +6,7 @@ no-time: 没有时间？
 hire: 雇佣他人为你部署
 disclaimer: 工具都是开源的，不提供其他支持
 do:
-  title: '简单模式：5步部署到DigitalOcean'
+  title: '简单选项：5步部署到DigitalOcean'
   one:
     title: 1. 没有账户的话，要创建一个DigitalOcean账户
     desc: 使用100美金的免额信用创建账户<small>(由merc1er推荐)</small></a>或者<a href="https://digitalocean.com/" target="_blank">不使用推荐创建账户
@@ -23,14 +23,14 @@ do:
     desc: 可以通过域名服务商Namecheap，Godaddy等完成这一步
   congrats:
     title: 恭喜！你的募资活动已创建完毕
-    desc: Note that you cannot edit a campaign once it is created. You can delete a campaign under the <u>destroy</u> section in DigitalOcean.
+    desc: 请注意，一旦创建完成就无法修改募资信息。你可以在DigitalOcean的<u>销毁</u>项删除一个募资活动
 custom:
-  title: 'Advanced: deploy anywhere'
+  title: '高级选项：在任何地方进行部署'
   opt1:
-    title: Option 1. Deploy with Docker
-    desc: All you need is Docker installed on your machine
-    cmd1: download the latest version of flipstarter
-    cmd2: create a volume to store the database
+    title: 选项1. 使用Docker进行部署
+    desc: 你只需要在设备上安装Docker即可
+    cmd1: 下载最新版的flipstarter
+    cmd2: 创建一个卷来存储数据库
     cmd3: run the container on ports 443 and 80
   opt2:
     title: Option 2. Deploy with NodeJS
