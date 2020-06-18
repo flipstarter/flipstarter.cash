@@ -9,7 +9,7 @@ do:
   title: '简单选项：5步部署到DigitalOcean'
   one:
     title: 1. 没有账户的话，要创建一个DigitalOcean账户
-    desc: 使用100美金的免额信用创建账户<small>(由merc1er推荐)</small></a>或者<a href="https://digitalocean.com/" target="_blank">不使用推荐创建账户
+    desc: 使用推荐链接创建账户<small>(由merc1er推荐)</small></a>或者<a href="https://digitalocean.com/" target="_blank">不使用推荐码创建账户
   two:
     title: 2. 从市场部署Flipstarter app
     desc: 点击此处进行部署
