@@ -9,9 +9,9 @@ do:
   title: '简单选项：5步部署到DigitalOcean'
   one:
     title: 1. 没有账户的话，要创建一个DigitalOcean账户
-    desc: 使用100美金的免额信用创建账户<small>(由merc1er推荐)</small></a>或者<a href="https://digitalocean.com/" target="_blank">不使用推荐创建账户
+    desc: 使用推荐链接创建账户<small>(由merc1er推荐)</small></a>或者<a href="https://digitalocean.com/" target="_blank">不使用推荐码创建账户
   two:
-    title: 2. 从市场部署Flipstarter app
+    title: 2. 从Marketplace部署Flipstarter app
     desc: 点击此处进行部署
   three:
     title: 3. 把你新创建的募资活动的IP地址复制粘贴到浏览器
@@ -35,7 +35,7 @@ custom:
   opt2:
     title: 选项2. 部署NodeJS
     desc: 你需要在设备上安装Git，NodeJS和<a href="https://github.com/nodejs/node-gyp" target="_blank">node-gyp</a>
-    cmd1: 把git库和cd复制进去
-    cmd2: 安装依赖
+    cmd1: 将git库复制后cd进去
+    cmd2: 安装依赖性
     cmd3: 在3000端口运行网页服务器
-  full: 阅读完整的指导
+  full: 阅读完整的说明
