@@ -110,7 +110,7 @@
   docker volume create flipstarter
 
   # $( how-to.custom.opt1.cmd3 )$
-  docker run -d --restart always --name flipstarter -v flipstarter:/app -p 443:3000 -p 80:3000 flipstarter/flipstarter
+  docker run -d --restart always --name flipstarter -v flipstarter:/app/db -p 443:3000 -p 80:3000 flipstarter/flipstarter
             </code>
           </pre>
         </div>
