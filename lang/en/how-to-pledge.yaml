@@ -11,6 +11,7 @@ outline:
     item-5: Create the actual pledge with Electron Cash + Flipstarter plugin.
     item-6: Submit your pledge to the campaign website so that the campaign knows about your pledge.
     item-7: After the campaign, un-freeze your pledge if it was not used.
+  outro: More detail below.
 
 get-ready:
   title: Get ready with Electron Cash

@@ -1,0 +1,79 @@
+title: 如何为Flipstarter募资项目捐款
+intro: 在之前介绍<a href="https://read.cash/@flipstarter/introducing-flipstarter-695d4d50"><u> Flipstarter</u></a>的文章中，我们说过第一版采用了一种Anyone-Can-Pay（任何人可支付）的特殊交易类型，来保障你的捐款只有在募资额度达到后才能使用。由于目前缺少钱包支持，不能简单地通过手机扫描二维码来捐款。今后我们会开发出支持二维码的版本。你也可以联系喜欢的钱包来支持Flipstarter。
+
+outline:
+  title: 概述
+  list:
+    item-1: 下载好<a href="https://electroncash.org/" target="_blank"><u>Electron Cash</u></a>钱包。
+    item-2: 下载<a href="https://gitlab.com/flipstarter/flipstarter-electron-cash/uploads/60333177e440a76e5630caf975014b88/flipstarter-1.0.zip" rel="nofollow ugc" target="_blank"><u>Flipstarter </u></a>插件。
+    item-3: 不要解压插件。在Electron Cash钱包中进行安装。
+    item-4: 在项目募资网站上描述你的捐款细节。
+    item-5: 使用Electron Cash钱包 + Flipstarter插件创建真正的捐款。
+    item-6: 提交捐款到项目募资网站上。这样项目就知道你进行了捐款。
+    item-7: 募资活动结束后，如果你的捐款没被使用可进行解冻来再次使用。
+  outro: 更多细节如下。
+
+get-ready:
+  title: 下载好Electron Cash钱包
+  warning: "提醒：一定要从可靠的下载源下载Electron Cash钱包和插件。如不确定记得咨询他人。恶意插件可以完全访问你的电脑。"
+  get: 下载好 <a href="https://electroncash.org/" target="_blank">Electron Cash</a> 钱包。
+  text: 确保你要捐赠的BCH在普通的钱包中。如果你使用的是多签或者硬件钱包，需要先把BCH提现到普通钱包中。如果你不知道多签或硬件钱包是什么，就不用担心这个问题了。
+
+get-plugin:
+  title: 下载Flipstarter插件
+  list:
+    item-1: '下载 <a href="https://gitlab.com/flipstarter/flipstarter-electron-cash/uploads/ec6b5a7518801c4a278128ac4f296607/flipstarter-1.3.zip" target="_blank">Flipstarter plugin</a>. 不要解压。'
+    item-2: '[非必选项] 你最好验证下插件的哈希是否与<a href="https://gitlab.com/flipstarter/flipstarter-electron-cash/-/releases" target="_blank">当前版本</a>签名过的哈希一致，哈希的签名是否有效。如果你不知道怎么操作，请联系我们获取帮助。'
+    item-3: 打开Electron Cash钱包（任何版本）。
+    item-4: 点击 <code>工具</code> --> <code>已安装的插件</code>。
+    item-5: 点击 <code>添加插件</code> --> 选择下载好的压缩文件。
+    item-6: 点击 <code>安装</code> --> <code>关闭</code>。
+    item-7: 这时Electron Cash钱包中会新出现Flipstarter选项卡。你所有版本的Electron Cash钱包中都会显示这一选项卡。
+
+describe:
+  title: 在项目募资网站上描述捐款细节
+  list:
+    item-1: 选择捐款金额。
+    item-2: 点击 <code>捐款</code>.
+    item-3: '非必须项：写下名字，留下评论。'
+    item-4: 点击 <code>复制细节</code>
+
+create:
+  title: 使用Electron Cash钱包 + Flipstarter插件来创建捐款
+  intro: '用Electron Cash钱包进行捐款，你需要:'
+  list:
+    item-1: 上复制的捐款细节粘贴到粘贴捐款 ，检查金额、姓名和留言是否正确。
+    item-2: 点击 确认捐款。插件会创建一笔交易，你可以在历史交易（History）中查看到这笔交易。
+    item-3: 点击 复制捐款，会自动复制所有字符，进行复制即可。
+
+submit:
+  title: 在募资网站上提交你的捐款
+  list:
+    item-1: 把复制的捐款信息粘贴到 <code>粘贴捐款</code>。
+    item-2: 点击 <code>提交捐款</code>。
+
+after:
+  title: After the campaign, cancel your pledge if it was not used
+  intro: 'There are some cases where your pledged coin will not be used:'
+  case-1: A campaign is not fully funded.
+  case-2: The site receives many pledges at the same time and has more than it needs to complete the funding.
+  tool: There is now a built-in tool that will handle cancelling your pledges.
+  step-1: Click on the toolbox at the top-right of the Flipstarter plugin.
+  step-2: Click <code>Cancel all pledges</code> and follow the directions.
+
+cancel:
+  title: How to cancel your pledge manually
+  intro: When you make a pledge with the Flipstarter plugin, it creates one coin with exactly your pledge amount and "freezes" it so that you do not accidentally spend it. You can see it in the <code>Coins</code> tab of Electron Cash. You might need to click <code>View</code> --> <code>Show Coins</code> if you do not have a Coins tab.
+  intro-2: To cancel the pledge, you need to un-freeze it and also spend it back to yourself. We recommend you ask for help from Flipstarter or someone else who is familiar with Electron Cash if you are concerned about any of these steps.
+  list:
+    item-1: Click on the <code>Receive Tab</code></li>
+    item-2: Copy the <code>Receiving address</code></li>
+    item-3: Click on the <code>Coins</code> tab.</li>
+    item-4: Find the frozen coin (blue highlighting) that is labeled as a <code>Flipstarter pledge</code>.</li>
+    item-5: Right-click that coin and <code>Unfreeze Coin</code>.</li>
+    item-6: Right-click that coin again and <code>Spend</code>.</li>
+    item-7: Paste the address that you copied in step 2.</li>
+    item-8: Click <code>Max</code></li>
+    item-9: Click <code>Send</code> and do any required confirmation.</li>
+  outro: Now your pledge was unfrozen and spent to yourself so that the campaign can no longer use it.
+  outro-2: Actually you can un-freeze your pledged coin and spend it at any time even during a campaign. If you spend it, the campaign will detect and remove your pledge so don't worry if you need to cancel.
