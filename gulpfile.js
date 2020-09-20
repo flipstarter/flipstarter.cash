@@ -72,6 +72,8 @@ gulp.task('watch', function(done){
     'reload'));
   // Watch SCSS files
   gulp.watch('scss/**/*.scss', gulp.series('sass', 'copy-static'));
+  // Watch translations
+  gulp.watch('lang/**/*.yaml', gulp.series('i18n', 'reload'));
   done();
 });
 

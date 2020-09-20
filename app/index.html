@@ -1,20 +1,8 @@
 {% extends 'base.html' %}
 
 {% block body %}
-<div class="container pt-3">
-  <div class="text-right h3">
-    <a href="/en">🇬🇧</a> |
-    <a href="/zh">🇨🇳</a>
-  </div>
-</div>
-
 <section class="py-6">
   <div class="container">
-    <div class="row align-items-center justify-content-center">
-      <div class="text-center mb-5">
-        <img src="/static/img/logo-alt.svg" alt="Logo" width="120">
-      </div>
-    </div>
     <div class="row align-items-center justify-content-center">
       <div class="text-center">
         <h3 class="hero-title">
@@ -39,7 +27,13 @@
             <p class="pt-3">$( index.non-custodial )$</p>
           </div>
         </div>
-        <a class="btn btn-primary btn-lg shadow" href="/$( _lang_ )$/how-to">$( index.start )$</a>
+
+        <!-- Calls to action -->
+        <div class="row justify-content-center">
+          <a class="col-11 col-md-5 btn btn-primary btn-lg shadow" href="/$( _lang_ )$/how-to">$( index.start )$</a>
+          <a class="col-11 col-md-5 btn btn-outline-primary btn-lg shadow ml-md-3 mt-3 mt-md-0" href="/$( _lang_ )$/how-to-pledge">$( index.contribute )$</a>
+        </div>
+
       </div>
     </div>
   </div>
