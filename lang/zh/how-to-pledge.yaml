@@ -1,0 +1,72 @@
+---
+title: How to support a Flipstarter campaign
+intro: As described in the <a href="https://read.cash/@flipstarter/introducing-flipstarter-695d4d50" target="_blank">introduction to Flipstarter</a>, the first version uses a special type of transaction called Anyone-Can-Pay. It guarantees that your pledge can only be used if the campaign reaches its full target. Due to lack of wallet support at this time, you will have to do more than just point your phone at a QR code. We will get to the QR code version in future versions of Flipstarter technology! Also please let your favorite wallet know if support for Flipstarter technology is important to you.
+outline:
+  title: Outline
+  list:
+    item-1: Get ready with <a href="https://electroncash.org/" target="_blank">Electron Cash</a>.
+    item-2: Download the latest <a href="https://gitlab.com/flipstarter/flipstarter-electron-cash/uploads/ec6b5a7518801c4a278128ac4f296607/flipstarter-1.3.zip" target="_blank">Flipstarter plugin</a>.
+    item-3: Do not unzip the plugin. Install it from Electron Cash.
+    item-4: Describe your pledge on the campaign website.
+    item-5: Create the actual pledge with Electron Cash + Flipstarter plugin.
+    item-6: Submit your pledge to the campaign website so that the campaign knows about your pledge.
+    item-7: After the campaign, un-freeze your pledge if it was not used.
+  outro: More detail below.
+get-ready:
+  title: Get ready with Electron Cash
+  warning: "Warning: As always with wallets, only install Electron Cash and plugins from a source that you trust. Get a second opinion if you are not sure. A malicious plugin will have full access to your computer."
+  get: Get <a href="https://electroncash.org/" target="_blank">Electron Cash</a> if you do not have it already.
+  text: Make sure that the BCH you want to pledge is in a standard wallet. Most people will have standard wallets. If your pledge BCH is in a multi-sig or hardware wallet, you will need to send the pledge amount to a standard wallet first. If you do not know what multi-sig or hardware wallets are, then you do not need to worry about it.
+get-plugin:
+  title: Get the Flipstarter plugin
+  list:
+    item-1: 'Download the <a href="https://gitlab.com/flipstarter/flipstarter-electron-cash/uploads/ec6b5a7518801c4a278128ac4f296607/flipstarter-1.3.zip" target="_blank">Flipstarter plugin</a>. Do not unzip it.'
+    item-2: '[Optional] Ideally, you should verify that the hash of it matches the signed hashes on the <a href="https://gitlab.com/flipstarter/flipstarter-electron-cash/-/releases" target="_blank">current release</a> and that the signature of the hashes is valid. If you would like to do that but do not know how, please contact us and we can help you.'
+    item-3: Open Electron Cash with any wallet.
+    item-4: Click <code>Tools</code> --> <code>Installed Plugins</code>.
+    item-5: Click <code>Add Plugin</code> --> Select the downloaded zip file.
+    item-6: Click <code>Install</code> --> <code>Close</code>.
+    item-7: You should now see a new Flipstarter tab in Electron Cash. It will be there for all your Electron Cash wallets.
+describe:
+  title: Describe your pledge on the campaign website
+  list:
+    item-1: Choose your amount.
+    item-2: Click <code>PLEDGE</code>.
+    item-3: 'Optional: Write a name and comment.'
+    item-4: Click <code>COPY DETAILS</code>.
+create:
+  title: Create your pledge with Electron Cash + Flipstarter plugin
+  intro: 'With the Electron Cash wallet that you want to pledge from:'
+  list:
+    item-1: Paste into <code>Paste pledge details</code> and <b>check that the amount, name and comment are correct</b>.
+    item-2: Click <code>Confirm pledge</code>. To prepare your pledge, the plugin will create a transaction. You can see it in your history as a transaction to yourself.
+    item-3: Click on <code>Copy pledge</code> and it will automatically select everything. Copy that.
+submit:
+  title: Submit your pledge to the campaign website
+  list:
+    item-1: Paste into <code>Paste pledge</code>.
+    item-2: Click <code>SUBMIT PLEDGE</code>.
+after:
+  title: After the campaign, cancel your pledge if it was not used
+  intro: 'There are some cases where your pledged coin will not be used:'
+  case-1: A campaign is not fully funded.
+  case-2: The site receives many pledges at the same time and has more than it needs to complete the funding.
+  tool: There is now a built-in tool that will handle cancelling your pledges.
+  step-1: Click on the toolbox at the top-right of the Flipstarter plugin.
+  step-2: Click <code>Cancel all pledges</code> and follow the directions.
+cancel:
+  title: How to cancel your pledge manually
+  intro: When you make a pledge with the Flipstarter plugin, it creates one coin with exactly your pledge amount and "freezes" it so that you do not accidentally spend it. You can see it in the <code>Coins</code> tab of Electron Cash. You might need to click <code>View</code> --> <code>Show Coins</code> if you do not have a Coins tab.
+  intro-2: To cancel the pledge, you need to un-freeze it and also spend it back to yourself. We recommend you ask for help from Flipstarter or someone else who is familiar with Electron Cash if you are concerned about any of these steps.
+  list:
+    item-1: Click on the <code>Receive Tab</code></li>
+    item-2: Copy the <code>Receiving address</code></li>
+    item-3: Click on the <code>Coins</code> tab.</li>
+    item-4: Find the frozen coin (blue highlighting) that is labeled as a <code>Flipstarter pledge</code>.</li>
+    item-5: Right-click that coin and <code>Unfreeze Coin</code>.</li>
+    item-6: Right-click that coin again and <code>Spend</code>.</li>
+    item-7: Paste the address that you copied in step 2.</li>
+    item-8: Click <code>Max</code></li>
+    item-9: Click <code>Send</code> and do any required confirmation.</li>
+  outro: Now your pledge was unfrozen and spent to yourself so that the campaign can no longer use it.
+  outro-2: Actually you can un-freeze your pledged coin and spend it at any time even during a campaign. If you spend it, the campaign will detect and remove your pledge so don't worry if you need to cancel.
