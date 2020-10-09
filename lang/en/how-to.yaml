@@ -41,3 +41,10 @@ custom:
     cmd2: install dependencies
     cmd3: run the webserver on port 3000
   full: Read the full instructions
+
+https:
+  title: Install a TLS/SSL (HTTPS) certificate
+  p1: Install Nginx, Apache or similar software.
+  p2: Run the Flipstarter Docker container on an available port - for example port 3000.
+  p3: Create a reverse proxy to serve port <code>3000</code> via Nginx/Apache.
+  p4: Install <a href="https://certbot.eff.org" target="_blank">certbot</a> and run it according to your OS and web server.

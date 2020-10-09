@@ -121,16 +121,16 @@
 
     <div class="row justify-content-center">
       <div class="col-md-10">
-        <p>Install a TLS/SSL (HTTPS) certificate</p>
+        <p>$( how-to.https.title )$</p>
         <div class="py-4">
           <ol class="text-muted">
-            <li>Install Nginx, Apache or similar software.</li>
-            <li>Run the Flipstarter Docker container on an available port - for example port 3000.</li>
-            <pre style="height: 110px" class="overflow-hidden">
+            <li>$( how-to.https.p1 )$</li>
+            <li>$( how-to.https.p2 )$</li>
+            <pre style="height: 120px" class="overflow-hidden">
               <code class="bash">docker run -d --restart always --name flipstarter -v flipstarter:/app/static/campaigns -p 3000:3000 flipstarter/flipstarter</code>
             </pre>
-            <li>Create a reverse proxy to serve port <code>3000</code> via Nginx/Apache.</li>
-            <li>Install <a href="https://certbot.eff.org" target="_blank">certbot</a> and run it according to your OS and web server.</li>
+            <li>$( how-to.https.p3 )$</li>
+            <li>$( how-to.https.p4 )$</li>
           </ol>
         </div>
 
