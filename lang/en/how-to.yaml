@@ -21,7 +21,7 @@ do:
     desc: In the window you just opened
   five:
     title: 5. Add a domain name (optional but recommended)
-    desc: You can do this through your domain name provider such as Namecheap, Godaddy etc...
+    desc: Once purchased, point your domain name (or subdomain) to the IP address of the host using an "A" record. See instructions for <a href="https://www.namecheap.com/support/knowledgebase/article.aspx/319/2237/how-can-i-set-up-an-a-address-record-for-my-domain" target="_blank">NameCheap</a>, <a href="https://support.cloudways.com/creating-a-record-cloudflare" target="_blank">Cloudflare</a> or <a href="https://www.godaddy.com/help/add-an-a-record-19238" target="_blank">GoDaddy</a>. Note that Cloudflare allows you to have an HTTPS certificate <a href="https://www.cloudflare.com/ssl/" target="_blank">at the push of a button</a>.
   congrats:
     title: Congratulations, your campaign is ready
     desc: Note that you cannot edit a campaign once it is created. You can delete a campaign under the <u>destroy</u> section in DigitalOcean.
