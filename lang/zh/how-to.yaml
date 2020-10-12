@@ -20,7 +20,7 @@ do:
     desc: 在刚打开的窗口
   five:
     title: 5. 添加域名 (非强制性的但是推荐这一步)
-    desc: 可以通过域名服务商Namecheap，Godaddy等完成这一步
+    desc: Once purchased, point your domain name (or subdomain) to the IP address of the host using an "A" record. See instructions for <a href="https://www.namecheap.com/support/knowledgebase/article.aspx/319/2237/how-can-i-set-up-an-a-address-record-for-my-domain" target="_blank">NameCheap</a>, <a href="https://support.cloudways.com/creating-a-record-cloudflare" target="_blank">Cloudflare</a> or <a href="https://www.godaddy.com/help/add-an-a-record-19238" target="_blank">GoDaddy</a>. Note that Cloudflare allows you to have an HTTPS certificate <a href="https://www.cloudflare.com/ssl/" target="_blank">at the push of a button</a>.
   congrats:
     title: 恭喜！你的募资活动已创建完毕
     desc: 请注意，一旦创建完成就无法修改募资信息。你可以在DigitalOcean的<u>销毁</u>项删除一个募资活动
@@ -39,3 +39,9 @@ custom:
     cmd2: 安装依赖性
     cmd3: 在3000端口运行网页服务器
   full: 阅读完整的说明
+https:
+  title: Install a TLS/SSL (HTTPS) certificate
+  p1: Install Nginx, Apache or similar software.
+  p2: Run the Flipstarter Docker container on an available port - for example port 3000.
+  p3: Create a reverse proxy to serve port <code>3000</code> via Nginx/Apache.
+  p4: Install <a href="https://certbot.eff.org" target="_blank">certbot</a> and run it according to your OS and web server.
