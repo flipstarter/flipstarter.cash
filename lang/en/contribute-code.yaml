@@ -18,7 +18,7 @@ workflow:
   t4: Propose a problem to be solved (any clarification to the issue), the outline of a solution and a bounty.
   t5: Bounties are only paid in Bitcoin Cash.
   t6: Bounties are typically denominated in USD.
-  t7: BCH conversion rates are determined at the time of transfer, typically by the Electron Cash wallet's price source.
+  t7: BCH conversion rates are determined at the time of transfer, typically using BitPay as a rate provider.
   t8: Review and revise the proposal with the maintainers.
   t9: Flipstarter team pays the bounty from public donations after a successful review, revision and merge process.
   t10: Create a Merge/Pull Request with the proposed changes.
