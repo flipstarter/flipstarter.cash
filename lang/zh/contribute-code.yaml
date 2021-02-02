@@ -1,0 +1,25 @@
+---
+title: Contribute code and earn Bitcoin Cash
+sub: The Flipstarter team is a group of volunteers, and we welcome contributions.
+guidelines:
+  title: "General guidelines:"
+  t1: Submit merge requests for the campaign backend and frontend <a href="https://gitlab.com/flipstarter/backend/-/merge_requests" target="_blank">here</a>.
+  t2: Submit merge requests for this Electron Cash plugin <a href="https://gitlab.com/flipstarter/flipstarter-electron-cash/-/merge_requests" target="_blank">here</a>.
+  t3: Keep each change minimal and self-contained. Note that "minimal" does not always mean small, but usually it does.
+  t4: Avoid mixing moving stuff around with changing stuff. Do changes with renames on their own.
+  t5: Code review is an important part of the development process. Contributors and maintainers should expect constructive communication from each other.
+  t6: In some cases, merge requests are rejected. It is up to the MR author to convince the reviewers that the changes warrant the review effort.
+workflow:
+  title: "Suggested workflow:"
+  t1: Find or create an issue describing a need or problem that needs to be solved.
+  t2: <span class="text-warning">Optional</span> - If you are interested in a bounty, please follow this guideline. Generally speaking, there should be no expectation of a bounty until the maintainers agree on the details and content.
+  t3: Create a thread on the issue to discuss your proposal and bounty.
+  t4: Propose a problem to be solved (any clarification to the issue), the outline of a solution and a bounty.
+  t5: Bounties are only paid in Bitcoin Cash.
+  t6: Bounties are typically denominated in USD.
+  t7: BCH conversion rates are determined at the time of transfer, typically using BitPay as a rate provider.
+  t8: Review and revise the proposal with the maintainers.
+  t9: Flipstarter team pays the bounty from public donations after a successful review, revision and merge process.
+  t10: Create a Merge/Pull Request with the proposed changes.
+  t11: Work with maintainers to review and revise the proposed changes.
+  t12: Maintainers merge changes if/when they meet Flipstarter needs.
