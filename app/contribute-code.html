@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<section class="py-6">
+  <div class="container">
+    <div class="text-center">
+      <h1 class="mb-4">$( contribute-code.title )$</h1>
+    </div>
+  </div>
+</section>
+
+<div class="pattern-dots-sm text-muted" style="height: 20px;"></div>
+
+<section class="py-6" id="easy">
+  <div class="container">
+
+    <div class="row justify-content-center">
+      <div class="col-md-10">
+        <p>$( contribute-code.sub )$</p>
+
+        <p>$( contribute-code.guidelines.title )$</p>
+        <ul>
+          <li>$( contribute-code.guidelines.t1 )$</li>
+          <li>$( contribute-code.guidelines.t2 )$</li>
+          <li>$( contribute-code.guidelines.t3 )$</li>
+          <li>$( contribute-code.guidelines.t4 )$</li>
+          <li>$( contribute-code.guidelines.t5 )$</li>
+          <li>$( contribute-code.guidelines.t6 )$</li>
+        </ul>
+
+        <p>$( contribute-code.workflow.title )$</p>
+        <ol>
+          <li>$( contribute-code.workflow.t1 )$</li>
+          <li>$( contribute-code.workflow.t2 )$</li>
+          <ol>
+            <li>$( contribute-code.workflow.t3 )$</li>
+            <li>$( contribute-code.workflow.t4 )$</li>
+            <ul>
+              <li>$( contribute-code.workflow.t5 )$</li>
+              <li>$( contribute-code.workflow.t6 )$</li>
+              <li>$( contribute-code.workflow.t7 )$</li>
+            </ul>
+            <li>$( contribute-code.workflow.t8 )$</li>
+            <li>$( contribute-code.workflow.t9 )$</li>
+          </ol>
+          <li>$( contribute-code.workflow.t10 )$</li>
+          <li>$( contribute-code.workflow.t11 )$</li>
+          <li>$( contribute-code.workflow.t12 )$</li>
+        </ol>
+      </div>
+    </div>
+
+  </div>
+</section>
+{% endblock %}
