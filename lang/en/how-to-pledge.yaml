@@ -5,7 +5,7 @@ outline:
   title: Outline
   list:
     item-1: Get ready with <a href="https://electroncash.org/" target="_blank">Electron Cash</a>.
-    item-2: Download the latest <a href="https://gitlab.com/flipstarter/flipstarter-electron-cash/uploads/ec6b5a7518801c4a278128ac4f296607/flipstarter-1.3.zip" target="_blank">Flipstarter plugin</a>.
+    item-2: Download the latest <a href="https://gitlab.com/flipstarter/flipstarter-electron-cash/uploads/b5300ea76722e60d6943521d3183b046/flipstarter-1.4.zip" target="_blank">Flipstarter plugin</a>.
     item-3: Do not unzip the plugin. Install it from Electron Cash.
     item-4: Describe your pledge on the campaign website.
     item-5: Create the actual pledge with Electron Cash + Flipstarter plugin.
@@ -22,7 +22,7 @@ get-ready:
 get-plugin:
   title: Get the Flipstarter plugin
   list:
-    item-1: 'Download the <a href="https://gitlab.com/flipstarter/flipstarter-electron-cash/uploads/ec6b5a7518801c4a278128ac4f296607/flipstarter-1.3.zip" target="_blank">Flipstarter plugin</a>. Do not unzip it.'
+    item-1: 'Download the <a href="https://gitlab.com/flipstarter/flipstarter-electron-cash/uploads/b5300ea76722e60d6943521d3183b046/flipstarter-1.4.zip" target="_blank">Flipstarter plugin</a>. Do not unzip it.'
     item-2: '[Optional] Ideally, you should verify that the hash of it matches the signed hashes on the <a href="https://gitlab.com/flipstarter/flipstarter-electron-cash/-/releases" target="_blank">current release</a> and that the signature of the hashes is valid. If you would like to do that but do not know how, please contact us and we can help you.'
     item-3: Open Electron Cash with any wallet.
     item-4: Click <code>Tools</code> --> <code>Installed Plugins</code>.
